@@ -5,7 +5,7 @@ module.exports = function () {
     server: {
       baseDir: [
         conf.paths.tmp,
-        conf.paths.src
+        conf.paths.data
       ],
       routes: {
         '/bower_components': 'bower_components'
